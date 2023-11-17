@@ -1,0 +1,17 @@
+.menu .menu__list {
+	display: none;
+	background-color: bisque;
+}
+
+.menu.menu-open .menu__icon {
+	background-color: chocolate;
+}
+
+.menu.menu-open .menu__list {
+	display: block;
+}
+
+.menu__sub-list {
+	background-color: cadetblue;
+	display: none;
+}

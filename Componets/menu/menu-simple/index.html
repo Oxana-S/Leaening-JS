@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Dom-Click</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+	<nav class="menu">
+		<!-- <img src="https://works.tk/temp-site/img/logo.png" alt="logo" class="menu__logo"> -->
+		<button class="menu__icon">
+			<span></span>
+		</button>
+		<ul class="menu__list">
+			<li class="menu__list-item">1</li>
+			<li class="menu__list-item">
+				2
+				<ul class="menu__sub-list">
+					<li>2.1</li>
+					<li><a href="">2</a></li>
+					<li>2.3</li>
+				</ul>
+			</li>
+			<li class="menu__list-item">3</li>
+		</ul>
+	</nav>
+	<!-- При разбитии js файла на отдельные компоненты, которые будут реализованны в отдельных файлах и эти файлы будут подключаться в app.js используя import и export. Для этого при подключении скрипта app.js добавляется атрибут type="module"  -->
+	<script src="app.js" type="module"></script>
+</body>
+
+</html>
